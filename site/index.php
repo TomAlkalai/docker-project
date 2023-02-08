@@ -1,7 +1,10 @@
 <?php
 
-$geboortejaar = 2004;
+$number = -2346;
 
-if($geboortejaar > 1997 && $geboortejaar < 2012){
-    echo "Jij behoort tot generatie Z, (zoomer)";
+if($number > 0){
+    echo "Het getal is positief";
+}
+else{
+    echo "Het getal is Negatief";
 }
