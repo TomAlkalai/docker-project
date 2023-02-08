@@ -1,11 +1,23 @@
 <?php
 
-$mijnGegevens = [
-    "voornaam" => "Tom",
-    "achternaam" =>"Alkalai",
-    "leeftijd" => 18
+$spongebob_main_characters = [
+    "SpongeBob" => [
+     "age" => 12,
+     "job" => "fry cook"
+    ],
+    "Patrick" => [
+       "age" => 12,
+      "job" => "unemployed"
+    ],
+    "Sandy" => [
+       "age" => 25,
+       "job" => "scientist"
+    ],
+    "Squidward" => [
+       "age" => 35,
+       "job" => "cashier"
+    ],
 ];
 
-echo $mijnGegevens["voornaam"];
-echo $mijnGegevens["achternaam"];
-echo $mijnGegevens["leeftijd"];
+echo $spongebob_main_characters["SpongeBob"]["job"];
+echo $spongebob_main_characters["SpongeBob"]["age"];
