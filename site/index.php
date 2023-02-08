@@ -1,27 +1,7 @@
 <?php
 
-$eenAantalGetallen = [];
+$bonusGetallen - [5, 16, 19, 32, 56, 99];
 
-$eenAantalGetallen = [12,66,87,300];
+$mijnGegevens = ["Bart", 78, TRUE, 3.4];
 
-echo $eenAantalGetallen[2];
-
-$eenAantalGetallen =[
-    
-    0 => 12,
-    1 => 66,
-    2 => 87,
-    3 => 300
-];
-
-echo $eenAantalGetallen[3];
-
-$eenWillekeurigLijstje = [
-
-    0 => "Tom",
-    1 => "Alkalai",
-    2 => 18
-];
-
-// print_r($eenWillekeurigLijstje);
-var_dump($eenWillekeurigLijstje);
+SmeerVoudigeArray - [[1, 2, 3], [4, 5, 6]];
